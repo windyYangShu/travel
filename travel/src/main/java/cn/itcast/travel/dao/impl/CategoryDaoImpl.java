@@ -7,7 +7,7 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import java.util.List;
-
+//
 public class CategoryDaoImpl implements CategoryDao {
 
     private JdbcTemplate template = new JdbcTemplate(JDBCUtils.getDataSource());
